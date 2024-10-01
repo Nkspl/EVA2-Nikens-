@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EVA2(Nikens)", "EVA2(Nikens)\EVA2(Nikens).vbproj", "{923FAC5C-B61D-4AAB-8185-A823FADFD40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{923FAC5C-B61D-4AAB-8185-A823FADFD40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923FAC5C-B61D-4AAB-8185-A823FADFD40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923FAC5C-B61D-4AAB-8185-A823FADFD40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923FAC5C-B61D-4AAB-8185-A823FADFD40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43988D1A-6255-43A5-990D-094479A7DA96}
+	EndGlobalSection
+EndGlobal
