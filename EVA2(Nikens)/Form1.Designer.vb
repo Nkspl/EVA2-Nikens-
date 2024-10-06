@@ -23,6 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Panel1 = New Panel()
+        ButtonVerDatos = New Button()
+        ButtonEliminar = New Button()
+        ButtonActualizar = New Button()
         Label8 = New Label()
         Panel2 = New Panel()
         Label7 = New Label()
@@ -50,6 +53,9 @@ Partial Class Form1
         ' Panel1
         ' 
         Panel1.BorderStyle = BorderStyle.Fixed3D
+        Panel1.Controls.Add(ButtonVerDatos)
+        Panel1.Controls.Add(ButtonEliminar)
+        Panel1.Controls.Add(ButtonActualizar)
         Panel1.Controls.Add(Label8)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Label6)
@@ -70,6 +76,33 @@ Partial Class Form1
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(523, 768)
         Panel1.TabIndex = 0
+        ' 
+        ' ButtonVerDatos
+        ' 
+        ButtonVerDatos.Location = New Point(402, 704)
+        ButtonVerDatos.Name = "ButtonVerDatos"
+        ButtonVerDatos.Size = New Size(94, 29)
+        ButtonVerDatos.TabIndex = 19
+        ButtonVerDatos.Text = "Ver datos"
+        ButtonVerDatos.UseVisualStyleBackColor = True
+        ' 
+        ' ButtonEliminar
+        ' 
+        ButtonEliminar.Location = New Point(230, 704)
+        ButtonEliminar.Name = "ButtonEliminar"
+        ButtonEliminar.Size = New Size(94, 29)
+        ButtonEliminar.TabIndex = 18
+        ButtonEliminar.Text = "Eliminar"
+        ButtonEliminar.UseVisualStyleBackColor = True
+        ' 
+        ' ButtonActualizar
+        ' 
+        ButtonActualizar.Location = New Point(31, 704)
+        ButtonActualizar.Name = "ButtonActualizar"
+        ButtonActualizar.Size = New Size(94, 29)
+        ButtonActualizar.TabIndex = 17
+        ButtonActualizar.Text = "Actualizar"
+        ButtonActualizar.UseVisualStyleBackColor = True
         ' 
         ' Label8
         ' 
@@ -290,5 +323,8 @@ Partial Class Form1
     Friend WithEvents RadioButtonMasculino As RadioButton
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents ButtonVerDatos As Button
+    Friend WithEvents ButtonEliminar As Button
+    Friend WithEvents ButtonActualizar As Button
 
 End Class
